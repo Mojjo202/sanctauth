@@ -11,7 +11,7 @@
     <hr>
     <router-link class="nav-item nav-link" to="/socialite">SOCIALITE</router-link>
     <hr>
-    <router-link class="nav-item nav-link" to="/login">SANCTUM</router-link>
+    <router-link class="nav-item nav-link" to="#">SANCTUM</router-link>
       </div>
     <!-- <div class="card">
       <div class="card-body" v-if="user">
