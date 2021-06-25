@@ -2,11 +2,13 @@
   <div class="home col-8 mx-auto py-5 mt-5 ">
     <div class="card">
       <div class= "d-flex justify-content-center">
-    <h2>MS GRAPH</h2>
+    <router-link class="nav-item nav-link" to="/msgraph">MS GRAPH</router-link>
     <hr>
-    <h2>Passport</h2>
+    <router-link class="nav-item nav-link" to="/passport">PASSPORT</router-link>
     <hr>
-    <h2>Socialite</h2>
+    <router-link class="nav-item nav-link" to="/socialite">SOCIALITE</router-link>
+    <hr>
+    <router-link class="nav-item nav-link" to="#">SANCTUM</router-link>
       </div>
     <!-- <div class="card">
       <div class="card-body" v-if="user">

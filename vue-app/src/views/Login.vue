@@ -30,6 +30,12 @@
         <button @click.prevent="login" class="btn btn-primary btn-block">
           Login
         </button>
+            <router-link class="nav-item nav-link text-right" to="/register">reset password</router-link>
+
+        <hr>
+        <div class="d-flex justify-content-center">dont have an account?
+        <router-link class="nav-item nav-link" to="/register">Register</router-link>
+        </div>
       </div>
     </div>
   </div>

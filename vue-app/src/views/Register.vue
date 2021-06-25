@@ -1,5 +1,5 @@
 <template>
-  <div class="home col-5 mx-auto py-5 mt-5">
+  <div class="home col-5 mx-auto py-5 ">
     <h1 class="text-center">Register</h1>
     <div class="card">
       <div class="card-body">
@@ -58,6 +58,10 @@
         >
           Register
         </button>
+        <hr>
+        <div class="d-flex justify-content-center">have an account?
+        <router-link class="nav-item nav-link" to="/login">login</router-link>
+        </div>
       </div>
     </div>
   </div>

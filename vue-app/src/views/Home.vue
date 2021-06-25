@@ -18,6 +18,7 @@
       <Socialite/>
 
  
+    <router-link class="nav-item nav-link" to="#">SANCTUM</router-link>
       </div>
     <!-- <div class="card">
       <div class="card-body" v-if="user">
