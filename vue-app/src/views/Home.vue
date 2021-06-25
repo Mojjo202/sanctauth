@@ -10,8 +10,14 @@
     <router-link class="nav-item nav-link" to="/passport">PASSPORT</router-link>
     <hr>
     <router-link class="nav-item nav-link" to="/socialite">SOCIALITE</router-link>
+    <!-- <a class="nav-item nav-link" target="_blank" href="http://localhost:8000/login/facebook">SOCIALITE</a> -->
     <hr>
     <router-link class="nav-item nav-link" to="/login">SANCTUM</router-link>
+
+
+      <Socialite/>
+
+ 
       </div>
     <!-- <div class="card">
       <div class="card-body" v-if="user">
@@ -25,7 +31,9 @@
 </template>
 
 <script>
+import Socialite from './Socialite.vue';
 export default {
+  components: { Socialite },
   name: "Home"
 };
 </script>

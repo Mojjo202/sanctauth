@@ -1,6 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use App\Http\controllers\Auth\Socialite\authController;
 
 /*
 |--------------------------------------------------------------------------
@@ -12,6 +13,9 @@ use Illuminate\Support\Facades\Route;
 | contains the "web" middleware group. Now create something great!
 |
 */
+
+Route::get('login/{provider}', [authController::class, 'redirect']);
+Route::get('login/{provider}/callback', [authController::class, 'Callback']);
 
 Route::get('/', function () {
     return view('welcome');
